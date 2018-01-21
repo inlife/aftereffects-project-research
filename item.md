@@ -42,7 +42,7 @@ Sample image item:
 </Item>
 ```
 
-Now, there are different types of items. Some of them have names, which are provided in the `<string />` tag.
+Now, there are different types of items. Some of them have names, which are provided in the `<string />` tag.  
 Type of item (alongside with some data) most likely described in the tag `<idta>` field.
 
 Here is a few differnt tags from the list above:
@@ -61,6 +61,7 @@ Here is a few differnt tags from the list above:
 ```
 
 You can see that first 2 bytes, describe the some sort of "Entry Type" or "Class", where 0001 is a folder, containing items, 0007 is an usual item, and 0004 is a compisition field.
+
 Also, byte 58 most likely describes an asset type:
 
 | value | type |
@@ -72,10 +73,11 @@ Also, byte 58 most likely describes an asset type:
 | 0f | composition |
 
 
-Byte 18 might be a resource id, that seems like is referenced in the layer when asset is used.
-Byte 19 and byte 23 are also quite intereseting, but i have no idea what they might represent.
+* Byte 18 might be a resource id, that seems like is referenced in the layer when asset is used.
+* Byte 19 and byte 23 are also quite intereseting, but i have no idea what they might represent.
 
-Every item in the list is supposed to have a **persistant id**, which will not change when file is saved again, and most likely this id should be used when this item gets referenced from in the layer.
+Every item in the list is supposed to have a **persistant id**, which will not change when file is saved again,
+and most likely this id should be used when this item gets referenced from in the layer.
 
 
 Folder type is pretty much a container that holds other items, inside the `<Sfdr>` tag.

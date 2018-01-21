@@ -54,7 +54,7 @@ It consists of `<Item>` tags, sepearted by other unknown fields, possibly showin
     </Fold>
 ```
 
-Not empty Fold will always contain at least one Compossition item (depends on how many compositions you've added to the project), more details: [Composition](composition.md).
+Not empty Fold will always contain at least one Compossition item (depends on how many compositions you've added to the project), more details: [Composition](composition.md).  
 Composition takes the most space for xml definition.
 
 Other Items are described there: [Item](item.md)
