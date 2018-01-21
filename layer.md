@@ -198,6 +198,7 @@ From byte 64, and at least for 10-20 bytes field contains the name of the layer.
 Byte 131 shows some of predefined type for non-footage assets, as far as i understood, where 03 is a text, and 04 is a solid.
 And following that, seems like byte 43 references the id, used in the byte 18 of the item footage definition in the fold.
 Byte 61 most likely describes an layer (used item in layer) type:
+
 | value | type |
 |:-:|:-:|
 | 01 | text |
