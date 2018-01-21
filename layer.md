@@ -192,12 +192,12 @@ We were comparing the values of every layer in few saved variations of the same 
 <ldta bdata="0000002800020000000000010000000000007800000000000000780007c680000000780000000007000000270000000000000000000000000000000100070000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"/>
 ```
 
-Byte 14 shows a starting time of the layer in frames. I'm not sure where it starts, maybe it's byte 12 or 10, and im not sure about lenght of the field.
-Bytes 28-32 most likely show the length in frames or final frame position of the layer.
-From byte 64, and at least for 10-20 bytes field contains the name of the layer.
-Byte 131 shows some of predefined type for non-footage assets, as far as i understood, where 03 is a text, and 04 is a solid.
-And following that, seems like byte 43 references the id, used in the byte 18 of the item footage definition in the fold.
-Byte 61 most likely describes an layer (used item in layer) type:
+Byte 14 shows a starting time of the layer in frames. I'm not sure where it starts, maybe it's byte 12 or 10, and im not sure about lenght of the field.  
+Bytes 28-32 most likely show the length in frames or final frame position of the layer.  
+From byte 64, and at least for 10-20 bytes field contains the name of the layer.  
+Byte 131 shows some of predefined type for non-footage assets, as far as i understood, where 03 is a text, and 04 is a solid.  
+And following that, seems like byte 43 references the id, used in the byte 18 of the item footage definition in the fold.  
+Byte 61 most likely describes an layer (used item in layer) type:  
 
 | value | type |
 |:-:|:-:|
