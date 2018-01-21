@@ -62,6 +62,7 @@ Here is a few differnt tags from the list above:
 
 You can see that first 2 bytes, describe the some sort of "Entry Type" or "Class", where 0001 is a folder, containing items, 0007 is an usual item, and 0004 is a compisition field.
 Also, byte 58 most likely describes an asset type:
+
 | value | type |
 |:-:|:-:|
 | 01 | solid |
