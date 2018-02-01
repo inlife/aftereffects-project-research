@@ -23,6 +23,7 @@ There are few other links to help:
 * <http://docs.aenhancers.com/general/project/>
 * <https://download.macromedia.com/pub/developer/aftereffects/scripting/After-Effects-CS6-Scripting-Guide.pdf>
 * <http://www.aenhancers.com/viewtopic.php?t=1256>
+* <https://stackoverflow.com/questions/24596482>
 
 ## Structure
 
