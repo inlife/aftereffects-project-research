@@ -195,7 +195,7 @@ We were comparing the values of every layer in few saved variations of the same 
 Byte decomposition:
 * Byte 14 shows a starting time of the layer in frames. I'm not sure where it starts, maybe it's byte 12 or 10, and im not sure about lenght of the field.
 * Bytes 28-32 most likely show the length in frames or final frame position of the layer.
-* From byte 64, and at least for 10-20 bytes field contains the name of the layer.
+* From byte 64 field contains the name of the layer, hex encoded, terminated with the value 0x00.
 * Byte 131 shows some of predefined type for non-footage assets, as far as i understood, where 03 is a text, and 04 is a solid.
 * And following that, bytes 40-43 reference the id, used in bytes 16-19 of the item footage definition in the fold.
 * Byte 61 most likely describes an layer (used item in layer) type:
@@ -203,6 +203,7 @@ Byte decomposition:
 | value | type |
 |:-:|:-:|
 | 01 | text |
+| 03 | video |
 | 05 | image (png) |
 | 07 | audio (mp3) |
 | 08 | solid |
