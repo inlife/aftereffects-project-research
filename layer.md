@@ -203,6 +203,7 @@ Byte decomposition:
 | value | type |
 |:-:|:-:|
 | 01 | text |
+| 03 | video |
 | 05 | image (png) |
 | 07 | audio (mp3) |
 | 08 | solid |
