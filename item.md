@@ -68,6 +68,7 @@ Also, byte 58 most likely describes an asset type:
 |:-:|:-:|
 | 01 | solid |
 | 02 | folder |
+| 03 | video |
 | 05 | image |
 | 07 | audio (mp3) |
 | 0f | composition |
