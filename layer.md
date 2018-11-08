@@ -197,7 +197,7 @@ Byte decomposition:
 * Bytes 28-32 most likely show the length in frames or final frame position of the layer.
 * From byte 64, and at least for 10-20 bytes field contains the name of the layer.
 * Byte 131 shows some of predefined type for non-footage assets, as far as i understood, where 03 is a text, and 04 is a solid.
-* And following that, seems like byte 43 references the id, used in the byte 18 of the item footage definition in the fold.
+* And following that, bytes 40-43 reference the id, used in bytes 16-19 of the item footage definition in the fold.
 * Byte 61 most likely describes an layer (used item in layer) type:
 
 | value | type |
@@ -206,3 +206,4 @@ Byte decomposition:
 | 05 | image (png) |
 | 07 | audio (mp3) |
 | 08 | solid |
+| 0f | composition (nested) |
