@@ -8,6 +8,8 @@ The purpose of this repo, is to share and possibly invite people to collaborate 
 As you possibly know, you can export Ae project to the XML format, which will give you some sort of easy to read human friendly format. However it won't.
 If you open it, you will see a tonn of not very descriptive tag names, followed by binary attributes. Data is there, but we just need a way to read it and write it.
 
+Project was created as an attempt to make changes to the project file, and use it in my other project [nexrender](https://github.com/inlife/nexrender).
+
 A long-term goal is to create a definition/description of the format, and build tools to work with this format, like **standalone** readers/generators/editors, etc.
 
 Contributions are highly welcomed! :)
@@ -34,3 +36,4 @@ Repo consists maily markdown files and few other things, like actual project fil
  * [Item](item.md)
  * [Composition](composition.md)
  * [Layer](layer.md)
+ * [Output Module Settings](output-module.md)
