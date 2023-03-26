@@ -12,7 +12,10 @@ Project was created as an attempt to make changes to the project file, and use i
 
 A long-term goal is to create a definition/description of the format, and build tools to work with this format, like **standalone** readers/generators/editors, etc.
 
-Since the creation of the project, there has been an actual functional attempt to make a tool, please check out https://github.com/actumn/aepx.js
+Since the creation of the project, there has been a few actual functional attempts to make tools and more in-depth explorations of the format. For the details, please check out following projects:
+* https://lottiefiles.github.io/lottie-docs/aep/
+* https://github.com/boltframe/aftereffects-aep-parser
+* https://github.com/actumn/aepx.js
 
 Contributions are highly welcomed! :)
 
